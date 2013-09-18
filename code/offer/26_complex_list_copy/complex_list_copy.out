@@ -1,0 +1,32 @@
+----------------------
+>> test1 begins:
+The original list is: (data, next, sibling)
+(1, 2, 3) (2, 3, 5) (3, 4, NULL) (4, 5, 2) (5, NULL, NULL) 
+The cloned list is: (data, next, sibling)
+(1, 2, 3) (2, 3, 5) (3, 4, NULL) (4, 5, 2) (5, NULL, NULL) 
+----------------------
+>> test2 begins:
+The original list is: (data, next, sibling)
+(1, 2, NULL) (2, 3, 5) (3, 4, 3) (4, 5, 2) (5, NULL, NULL) 
+The cloned list is: (data, next, sibling)
+(1, 2, NULL) (2, 3, 5) (3, 4, 3) (4, 5, 2) (5, NULL, NULL) 
+----------------------
+>> test3 begins:
+The original list is: (data, next, sibling)
+(1, 2, NULL) (2, 3, 4) (3, 4, NULL) (4, 5, 2) (5, NULL, NULL) 
+The cloned list is: (data, next, sibling)
+(1, 2, NULL) (2, 3, 4) (3, 4, NULL) (4, 5, 2) (5, NULL, NULL) 
+----------------------
+>> test4 begins:
+The original list is: (data, next, sibling)
+(1, NULL, 1) 
+The cloned list is: (data, next, sibling)
+(1, NULL, 1) 
+----------------------
+>> test5 begins:
+The original list is: (data, next, sibling)
+(NULL, NULL, NULL)
+
+The cloned list is: (data, next, sibling)
+(NULL, NULL, NULL)
+
