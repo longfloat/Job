@@ -1,0 +1,91 @@
+Question 1 / 2 (Amazon Campus(1): remove comments from C++ style code)
+Input a c++ style code string, which has two kinds of comment: “//” and “/* */”. Remove these comments and output the remain string.
+
+1. Comment starts from "//", remove string from "//" to the end of the line.
+
+Example:
+
+Input: 
+
+int x = 0; // This is a comment
+
+// This is another comment
+
+int y = 0;
+
+Output:
+
+int x = 0; 
+
+ 
+
+int y = 0;
+
+2. Comment in "/* */", remove string start from "/*" and end with "*/"
+
+Example:
+
+Input
+
+/*
+
+ * this is a comment
+
+ */
+
+int main() {
+
+  return 0;
+
+}
+
+Output:
+
+ 
+
+int main() {
+
+  return 0;
+
+}
+
+3. If "//" or "/* */" is inside quotation, it is not a comment
+
+Example:
+
+Input:
+
+char *s = "// this is /* a string */";
+
+Output:
+
+char *s = "// this is /* a string */";
+
+
+
+Question 2 / 2 (Amazon Campus(3): walk to the array)
+Given an array of integers, each element represents the max number of jumps that you can move forward.
+Write a piece of code to find out the minimum number of elements you need to select to reach the end of the array (starting from the first element).
+• All integers is equal to or greater than 0
+• If an element is 0, you cannot make any jumps
+• -1 should be output if it is unable to reach the end of the array
+Here is an example to illustrate the question.
+Sample Input: 1,3,5,2,9,3,1,1,8
+Sample Output: 3
+Explanation:
+Here the min # of selections is : 3
+with the sequence : 1-> 3 -> 9 ->8
+First element is 1, so can only go to 3.
+Second element is 3, so can make at most 3 jumps: eg to 5 or 2 or 9.
+
+ 
+
+Input format:
+
+the first line is a number indicating the size of the array, then the second line follows the array, seperated by space.
+
+Example:
+
+9
+
+1 3 5 2 9 3 1 1 8
