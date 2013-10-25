@@ -88,7 +88,7 @@ void print_vector(vector<T> &vec)
 
 int main(int argc, const char *argv)
 {
-	freopen("heap_sort.in", "r", stdin);
+	freopen("..\\sort.in", "r", stdin);
 	int length;
 	while (cin >> length)
 	{
